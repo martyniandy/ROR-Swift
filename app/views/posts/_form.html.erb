@@ -1,7 +1,6 @@
 <% if f.object.errors.present? %>
 <div class="errors">
   <p>There were problems saving your post:</p>
-  
   <ul>
   <% f.object.errors.full_messages.each do |error| %>
     <li><%= error %></li>
